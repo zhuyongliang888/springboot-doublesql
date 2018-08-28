@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hoperun.mysql.demo.dao.HpDevicesMapper">
+  <resultMap id="BaseResultMap" type="com.hoperun.mysql.demo.model.HpDevices">
+    <id column="dev_id" jdbcType="VARCHAR" property="devId" />
+    <result column="serial" jdbcType="VARCHAR" property="serial" />
+    <result column="alias" jdbcType="VARCHAR" property="alias" />
+    <result column="dev_type" jdbcType="INTEGER" property="devType" />
+    <result column="tenant_id" jdbcType="VARCHAR" property="tenantId" />
+    <result column="branch_id" jdbcType="VARCHAR" property="branchId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    dev_id, serial, alias, dev_type, tenant_id, branch_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from hp_devices
+    where dev_id = #{devId,jdbcType=VARCHAR}
+  </select>
+  <select id="getDeviceList" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from hp_devices
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from hp_devices
+    where dev_id = #{devId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.hoperun.mysql.demo.model.HpDevices">
+    insert into hp_devices (dev_id, serial, alias, 
+      dev_type, tenant_id, branch_id
+      )
+    values (#{devId,jdbcType=VARCHAR}, #{serial,jdbcType=VARCHAR}, #{alias,jdbcType=VARCHAR}, 
+      #{devType,jdbcType=INTEGER}, #{tenantId,jdbcType=VARCHAR}, #{branchId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.hoperun.mysql.demo.model.HpDevices">
+    insert into hp_devices
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="devId != null">
+        dev_id,
+      </if>
+      <if test="serial != null">
+        serial,
+      </if>
+      <if test="alias != null">
+        alias,
+      </if>
+      <if test="devType != null">
+        dev_type,
+      </if>
+      <if test="tenantId != null">
+        tenant_id,
+      </if>
+      <if test="branchId != null">
+        branch_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="devId != null">
+        #{devId,jdbcType=VARCHAR},
+      </if>
+      <if test="serial != null">
+        #{serial,jdbcType=VARCHAR},
+      </if>
+      <if test="alias != null">
+        #{alias,jdbcType=VARCHAR},
+      </if>
+      <if test="devType != null">
+        #{devType,jdbcType=INTEGER},
+      </if>
+      <if test="tenantId != null">
+        #{tenantId,jdbcType=VARCHAR},
+      </if>
+      <if test="branchId != null">
+        #{branchId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hoperun.mysql.demo.model.HpDevices">
+    update hp_devices
+    <set>
+      <if test="serial != null">
+        serial = #{serial,jdbcType=VARCHAR},
+      </if>
+      <if test="alias != null">
+        alias = #{alias,jdbcType=VARCHAR},
+      </if>
+      <if test="devType != null">
+        dev_type = #{devType,jdbcType=INTEGER},
+      </if>
+      <if test="tenantId != null">
+        tenant_id = #{tenantId,jdbcType=VARCHAR},
+      </if>
+      <if test="branchId != null">
+        branch_id = #{branchId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where dev_id = #{devId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hoperun.mysql.demo.model.HpDevices">
+    update hp_devices
+    set serial = #{serial,jdbcType=VARCHAR},
+      alias = #{alias,jdbcType=VARCHAR},
+      dev_type = #{devType,jdbcType=INTEGER},
+      tenant_id = #{tenantId,jdbcType=VARCHAR},
+      branch_id = #{branchId,jdbcType=VARCHAR}
+    where dev_id = #{devId,jdbcType=VARCHAR}
+  </update>
+</mapper>

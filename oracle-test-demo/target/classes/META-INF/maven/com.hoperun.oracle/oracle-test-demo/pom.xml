@@ -1,0 +1,193 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.hoperun.oracle</groupId>
+	<artifactId>oracle-test-demo</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>oracle-test-demo</name>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.1.RELEASE</version>
+	</parent>
+
+	<!-- UTF-8编码和JDK版本 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- web 添加了 tomcat 和 Spring MVC -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- 添加热加载工具 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- 添加ConfigurationProperties依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- json 依赖 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
+		</dependency>
+
+		<!-- gson 依赖 -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
+		<!-- 添加 mybatis 依赖 -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+		<!-- oracle mybatis -->
+		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+
+		<!--添加 mysql 数据库驱动,必须是5.1.32,否则自动生成工具失效,暂时不知道为什么 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.32</version><!--$NO-MVN-MAN-VER$ -->
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.4.2</version>
+		</dependency>
+
+		<!-- 添加数据库连接池 -->
+		<!-- <dependency> <groupId>com.alibaba</groupId> <artifactId>druid</artifactId> 
+			<version>1.0.5</version> </dependency> -->
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.20</version>
+		</dependency>
+
+		<!-- json 依赖 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<!-- 数据库加密 -->
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.hoperun.tdemo</groupId>
+			<artifactId>tdemo-demo</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>oracle_demo</finalName>
+		<plugins>
+			<!-- 打包成jar包 -->
+			<!-- 这个是使用springboot 默认的打包方式 使用此方式会将依赖全部打入到生成的spingboot 的最终jar包中-->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.hoperun.oracle.demo.Application</mainClass>
+				</configuration>
+			</plugin>
+			
+			<!-- 这边使用手动打包 将lib库从sprigboot 默认的打包方式中分离出来 -->
+			<!-- 设置编译的主类 -->
+			<!-- <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<classesDirectory>target/classes/</classesDirectory>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							打包时 MANIFEST.MF文件不记录的时间戳版本
+							<useUniqueVersions>false</useUniqueVersions>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>com.hoperun.oracle.demo.Application</mainClass>
+						</manifest>
+						<manifestEntries>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+			
+		  <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<type>jar</type>
+							<includeTypes>jar</includeTypes>
+							<useUniqueVersions>false</useUniqueVersions>
+							<outputDirectory>
+								${project.build.directory}/lib
+							</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin> -->
+			
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,86 @@
+2018-08-09 16:24:58 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6768 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-09 16:24:58 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-09 16:24:58 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-09 16:25:03 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:03
+2018-08-09 16:25:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 5.52 seconds (JVM running for 6.362)
+2018-08-09 16:25:05 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:05
+2018-08-09 16:25:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:08
+2018-08-09 16:25:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:08
+2018-08-09 16:25:10 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:10
+2018-08-09 16:25:13 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:13
+2018-08-09 16:25:15 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:15
+2018-08-09 16:25:16 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:16
+2018-08-09 16:25:18 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:18
+2018-08-09 16:25:20 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:20
+2018-08-09 16:25:23 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:23
+2018-08-09 16:25:24 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:24
+2018-08-09 16:25:25 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:25
+2018-08-09 16:25:28 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:28
+2018-08-09 16:25:30 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:30
+2018-08-09 16:25:32 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:32
+2018-08-09 16:25:33 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:33
+2018-08-09 16:25:35 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:35
+2018-08-09 16:25:38 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:38
+2018-08-09 16:25:40 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:40
+2018-08-09 16:25:40 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:40
+2018-08-09 16:25:43 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:43
+2018-08-09 16:25:45 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:45
+2018-08-09 16:25:48 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:48
+2018-08-09 16:25:48 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:48
+2018-08-09 16:25:50 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:50
+2018-08-09 16:25:53 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:53
+2018-08-09 16:25:55 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:25:55
+2018-08-09 16:25:56 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:25:56
+2018-08-09 16:25:58 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:25:58
+2018-08-09 16:26:00 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:00
+2018-08-09 16:26:00 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:00
+2018-08-09 16:26:03 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:03
+2018-08-09 16:26:05 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:05
+2018-08-09 16:26:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:08
+2018-08-09 16:26:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:08
+2018-08-09 16:26:10 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:10
+2018-08-09 16:26:13 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:13
+2018-08-09 16:26:15 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:15
+2018-08-09 16:26:16 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:16
+2018-08-09 16:26:18 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:18
+2018-08-09 16:26:20 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:20
+2018-08-09 16:26:23 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:23
+2018-08-09 16:26:24 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:24
+2018-08-09 16:26:25 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:25
+2018-08-09 16:26:28 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:28
+2018-08-09 16:26:30 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:30
+2018-08-09 16:26:32 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:32
+2018-08-09 16:26:33 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:33
+2018-08-09 16:26:35 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:35
+2018-08-09 16:26:38 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:38
+2018-08-09 16:26:40 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:40
+2018-08-09 16:26:40 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:40
+2018-08-09 16:26:43 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:43
+2018-08-09 16:26:45 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:45
+2018-08-09 16:26:48 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:48
+2018-08-09 16:26:48 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:48
+2018-08-09 16:26:50 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:50
+2018-08-09 16:26:53 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:53
+2018-08-09 16:26:55 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:26:55
+2018-08-09 16:26:56 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:26:56
+2018-08-09 16:26:58 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:26:58
+2018-08-09 16:27:00 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:27:00
+2018-08-09 16:27:00 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:27:00
+2018-08-09 16:27:03 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:27:03
+2018-08-09 16:27:05 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:27:05
+2018-08-09 16:27:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:27:08
+2018-08-09 16:27:08 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:27:08
+2018-08-09 16:27:10 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:27:10
+2018-08-09 16:27:13 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:27:13
+2018-08-09 16:27:15 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:27:15
+2018-08-09 16:27:16 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 16:27:16
+2018-08-09 16:27:18 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 16:27:18
+2018-08-09 16:27:20 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 16:27:20
+2018-08-09 16:31:11 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7008 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-09 16:31:11 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-09 16:31:11 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-09 16:31:15 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.036 seconds (JVM running for 4.593)
+2018-08-09 17:36:47 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 10548 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-09 17:36:47 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-09 17:36:47 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-09 17:36:52 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 5.756 seconds (JVM running for 6.953)

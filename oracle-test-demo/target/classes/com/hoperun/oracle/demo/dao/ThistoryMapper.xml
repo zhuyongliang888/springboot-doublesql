@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hoperun.oracle.demo.dao.ThistoryMapper">
+  <resultMap id="BaseResultMap" type="com.hoperun.oracle.demo.model.Thistory">
+    <id column="EXPECT" jdbcType="DECIMAL" property="expect" />
+    <result column="BLUE_01" jdbcType="DECIMAL" property="blue01" />
+    <result column="BLUE_02" jdbcType="DECIMAL" property="blue02" />
+    <result column="BLUE_03" jdbcType="DECIMAL" property="blue03" />
+    <result column="BLUE_04" jdbcType="DECIMAL" property="blue04" />
+    <result column="BLUE_05" jdbcType="DECIMAL" property="blue05" />
+    <result column="BLUE_06" jdbcType="DECIMAL" property="blue06" />
+    <result column="BLUE_07" jdbcType="DECIMAL" property="blue07" />
+    <result column="BLUE_08" jdbcType="DECIMAL" property="blue08" />
+    <result column="BLUE_09" jdbcType="DECIMAL" property="blue09" />
+    <result column="BLUE_10" jdbcType="DECIMAL" property="blue10" />
+    <result column="BLUE_11" jdbcType="DECIMAL" property="blue11" />
+    <result column="BLUE_12" jdbcType="DECIMAL" property="blue12" />
+    <result column="BLUE_13" jdbcType="DECIMAL" property="blue13" />
+    <result column="BLUE_14" jdbcType="DECIMAL" property="blue14" />
+    <result column="BLUE_15" jdbcType="DECIMAL" property="blue15" />
+    <result column="BLUE_16" jdbcType="DECIMAL" property="blue16" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    EXPECT, BLUE_01, BLUE_02, BLUE_03, BLUE_04, BLUE_05, BLUE_06, BLUE_07, BLUE_08, BLUE_09, 
+    BLUE_10, BLUE_11, BLUE_12, BLUE_13, BLUE_14, BLUE_15, BLUE_16
+  </sql>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Short" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from T_SSQ_HISTORY_DATA_BULE
+    where EXPECT = #{expect,jdbcType=DECIMAL}
+  </select>
+  
+  <select id="getThistoryList" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from T_SSQ_HISTORY_DATA_BULE
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Short">
+    delete from T_SSQ_HISTORY_DATA_BULE
+    where EXPECT = #{expect,jdbcType=DECIMAL}
+  </delete>
+  <insert id="insert" parameterType="com.hoperun.oracle.demo.model.Thistory">
+    insert into T_SSQ_HISTORY_DATA_BULE (EXPECT, BLUE_01, BLUE_02, 
+      BLUE_03, BLUE_04, BLUE_05, 
+      BLUE_06, BLUE_07, BLUE_08, 
+      BLUE_09, BLUE_10, BLUE_11, 
+      BLUE_12, BLUE_13, BLUE_14, 
+      BLUE_15, BLUE_16)
+    values (#{expect,jdbcType=DECIMAL}, #{blue01,jdbcType=DECIMAL}, #{blue02,jdbcType=DECIMAL}, 
+      #{blue03,jdbcType=DECIMAL}, #{blue04,jdbcType=DECIMAL}, #{blue05,jdbcType=DECIMAL}, 
+      #{blue06,jdbcType=DECIMAL}, #{blue07,jdbcType=DECIMAL}, #{blue08,jdbcType=DECIMAL}, 
+      #{blue09,jdbcType=DECIMAL}, #{blue10,jdbcType=DECIMAL}, #{blue11,jdbcType=DECIMAL}, 
+      #{blue12,jdbcType=DECIMAL}, #{blue13,jdbcType=DECIMAL}, #{blue14,jdbcType=DECIMAL}, 
+      #{blue15,jdbcType=DECIMAL}, #{blue16,jdbcType=DECIMAL})
+  </insert>
+  <insert id="insertSelective" parameterType="com.hoperun.oracle.demo.model.Thistory">
+    insert into T_SSQ_HISTORY_DATA_BULE
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="expect != null">
+        EXPECT,
+      </if>
+      <if test="blue01 != null">
+        BLUE_01,
+      </if>
+      <if test="blue02 != null">
+        BLUE_02,
+      </if>
+      <if test="blue03 != null">
+        BLUE_03,
+      </if>
+      <if test="blue04 != null">
+        BLUE_04,
+      </if>
+      <if test="blue05 != null">
+        BLUE_05,
+      </if>
+      <if test="blue06 != null">
+        BLUE_06,
+      </if>
+      <if test="blue07 != null">
+        BLUE_07,
+      </if>
+      <if test="blue08 != null">
+        BLUE_08,
+      </if>
+      <if test="blue09 != null">
+        BLUE_09,
+      </if>
+      <if test="blue10 != null">
+        BLUE_10,
+      </if>
+      <if test="blue11 != null">
+        BLUE_11,
+      </if>
+      <if test="blue12 != null">
+        BLUE_12,
+      </if>
+      <if test="blue13 != null">
+        BLUE_13,
+      </if>
+      <if test="blue14 != null">
+        BLUE_14,
+      </if>
+      <if test="blue15 != null">
+        BLUE_15,
+      </if>
+      <if test="blue16 != null">
+        BLUE_16,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="expect != null">
+        #{expect,jdbcType=DECIMAL},
+      </if>
+      <if test="blue01 != null">
+        #{blue01,jdbcType=DECIMAL},
+      </if>
+      <if test="blue02 != null">
+        #{blue02,jdbcType=DECIMAL},
+      </if>
+      <if test="blue03 != null">
+        #{blue03,jdbcType=DECIMAL},
+      </if>
+      <if test="blue04 != null">
+        #{blue04,jdbcType=DECIMAL},
+      </if>
+      <if test="blue05 != null">
+        #{blue05,jdbcType=DECIMAL},
+      </if>
+      <if test="blue06 != null">
+        #{blue06,jdbcType=DECIMAL},
+      </if>
+      <if test="blue07 != null">
+        #{blue07,jdbcType=DECIMAL},
+      </if>
+      <if test="blue08 != null">
+        #{blue08,jdbcType=DECIMAL},
+      </if>
+      <if test="blue09 != null">
+        #{blue09,jdbcType=DECIMAL},
+      </if>
+      <if test="blue10 != null">
+        #{blue10,jdbcType=DECIMAL},
+      </if>
+      <if test="blue11 != null">
+        #{blue11,jdbcType=DECIMAL},
+      </if>
+      <if test="blue12 != null">
+        #{blue12,jdbcType=DECIMAL},
+      </if>
+      <if test="blue13 != null">
+        #{blue13,jdbcType=DECIMAL},
+      </if>
+      <if test="blue14 != null">
+        #{blue14,jdbcType=DECIMAL},
+      </if>
+      <if test="blue15 != null">
+        #{blue15,jdbcType=DECIMAL},
+      </if>
+      <if test="blue16 != null">
+        #{blue16,jdbcType=DECIMAL},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hoperun.oracle.demo.model.Thistory">
+    update T_SSQ_HISTORY_DATA_BULE
+    <set>
+      <if test="blue01 != null">
+        BLUE_01 = #{blue01,jdbcType=DECIMAL},
+      </if>
+      <if test="blue02 != null">
+        BLUE_02 = #{blue02,jdbcType=DECIMAL},
+      </if>
+      <if test="blue03 != null">
+        BLUE_03 = #{blue03,jdbcType=DECIMAL},
+      </if>
+      <if test="blue04 != null">
+        BLUE_04 = #{blue04,jdbcType=DECIMAL},
+      </if>
+      <if test="blue05 != null">
+        BLUE_05 = #{blue05,jdbcType=DECIMAL},
+      </if>
+      <if test="blue06 != null">
+        BLUE_06 = #{blue06,jdbcType=DECIMAL},
+      </if>
+      <if test="blue07 != null">
+        BLUE_07 = #{blue07,jdbcType=DECIMAL},
+      </if>
+      <if test="blue08 != null">
+        BLUE_08 = #{blue08,jdbcType=DECIMAL},
+      </if>
+      <if test="blue09 != null">
+        BLUE_09 = #{blue09,jdbcType=DECIMAL},
+      </if>
+      <if test="blue10 != null">
+        BLUE_10 = #{blue10,jdbcType=DECIMAL},
+      </if>
+      <if test="blue11 != null">
+        BLUE_11 = #{blue11,jdbcType=DECIMAL},
+      </if>
+      <if test="blue12 != null">
+        BLUE_12 = #{blue12,jdbcType=DECIMAL},
+      </if>
+      <if test="blue13 != null">
+        BLUE_13 = #{blue13,jdbcType=DECIMAL},
+      </if>
+      <if test="blue14 != null">
+        BLUE_14 = #{blue14,jdbcType=DECIMAL},
+      </if>
+      <if test="blue15 != null">
+        BLUE_15 = #{blue15,jdbcType=DECIMAL},
+      </if>
+      <if test="blue16 != null">
+        BLUE_16 = #{blue16,jdbcType=DECIMAL},
+      </if>
+    </set>
+    where EXPECT = #{expect,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hoperun.oracle.demo.model.Thistory">
+    update T_SSQ_HISTORY_DATA_BULE
+    set BLUE_01 = #{blue01,jdbcType=DECIMAL},
+      BLUE_02 = #{blue02,jdbcType=DECIMAL},
+      BLUE_03 = #{blue03,jdbcType=DECIMAL},
+      BLUE_04 = #{blue04,jdbcType=DECIMAL},
+      BLUE_05 = #{blue05,jdbcType=DECIMAL},
+      BLUE_06 = #{blue06,jdbcType=DECIMAL},
+      BLUE_07 = #{blue07,jdbcType=DECIMAL},
+      BLUE_08 = #{blue08,jdbcType=DECIMAL},
+      BLUE_09 = #{blue09,jdbcType=DECIMAL},
+      BLUE_10 = #{blue10,jdbcType=DECIMAL},
+      BLUE_11 = #{blue11,jdbcType=DECIMAL},
+      BLUE_12 = #{blue12,jdbcType=DECIMAL},
+      BLUE_13 = #{blue13,jdbcType=DECIMAL},
+      BLUE_14 = #{blue14,jdbcType=DECIMAL},
+      BLUE_15 = #{blue15,jdbcType=DECIMAL},
+      BLUE_16 = #{blue16,jdbcType=DECIMAL}
+    where EXPECT = #{expect,jdbcType=DECIMAL}
+  </update>
+</mapper>

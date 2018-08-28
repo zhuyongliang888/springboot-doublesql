@@ -1,0 +1,127 @@
+2018-08-10 11:12:08 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 11:12:08 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 11:12:08 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 11:12:14 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 5.494 seconds (JVM running for 6.278)
+2018-08-10 14:43:39 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:43:39 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:43:39 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:43:40 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.527 seconds (JVM running for 12692.661)
+2018-08-10 14:43:50 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:43:50 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:43:50 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:43:51 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.31 seconds (JVM running for 12703.88)
+2018-08-10 14:43:57 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:43:57 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:43:57 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:43:58 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.391 seconds (JVM running for 12711.058)
+2018-08-10 14:44:02 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:44:02 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:44:02 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:44:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.28 seconds (JVM running for 12715.936)
+2018-08-10 14:44:26 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:44:26 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:44:26 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:44:28 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.252 seconds (JVM running for 12740.209)
+2018-08-10 14:44:54 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:44:54 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:44:54 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:44:55 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.254 seconds (JVM running for 12767.694)
+2018-08-10 14:45:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:45:03 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:45:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:45:05 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.244 seconds (JVM running for 12777.187)
+2018-08-10 14:45:25 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 14:45:25 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 14:45:25 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 14:45:26 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.262 seconds (JVM running for 12798.566)
+2018-08-10 15:03:09 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:03:09 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:03:09 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:03:11 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.272 seconds (JVM running for 13863.151)
+2018-08-10 15:03:24 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:03:24 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:03:24 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:03:26 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.247 seconds (JVM running for 13878.182)
+2018-08-10 15:03:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:03:33 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:03:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:03:35 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.239 seconds (JVM running for 13887.119)
+2018-08-10 15:04:21 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 6468 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:04:21 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:04:21 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:04:22 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.257 seconds (JVM running for 13934.538)
+2018-08-10 15:09:07 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 4696 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:09:07 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:09:07 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:09:10 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.034 seconds (JVM running for 4.607)
+2018-08-10 15:09:16 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 4696 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:09:16 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:09:16 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:09:22 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 2584 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:09:22 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:09:22 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:09:26 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.109 seconds (JVM running for 4.662)
+2018-08-10 15:09:58 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 8572 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:09:58 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:09:58 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:10:01 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.133 seconds (JVM running for 4.692)
+2018-08-10 15:10:19 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:10:19 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:10:19 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:10:24 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.579 seconds (JVM running for 5.148)
+2018-08-10 15:12:23 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:12:23 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:12:23 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:12:24 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.381 seconds (JVM running for 125.347)
+2018-08-10 15:12:31 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:12:31 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:12:31 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:12:32 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.361 seconds (JVM running for 133.954)
+2018-08-10 15:12:37 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:12:37 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:12:37 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:12:38 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.288 seconds (JVM running for 139.91)
+2018-08-10 15:13:59 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:13:59 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:13:59 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:14:00 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.279 seconds (JVM running for 221.662)
+2018-08-10 15:14:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9532 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:14:33 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:14:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:14:34 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.319 seconds (JVM running for 255.903)
+2018-08-10 15:14:53 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7916 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:14:53 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:14:53 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:14:57 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.029 seconds (JVM running for 4.6)
+2018-08-10 15:17:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7916 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:17:33 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:17:33 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:17:35 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.375 seconds (JVM running for 162.097)
+2018-08-10 15:18:53 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7916 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:18:53 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:18:53 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:18:55 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.297 seconds (JVM running for 241.91)
+2018-08-10 15:25:54 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7916 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 15:25:54 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 15:25:54 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 15:25:55 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.35 seconds (JVM running for 662.601)
+2018-08-10 16:50:19 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9028 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 16:50:19 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 16:50:19 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 16:50:22 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 3.913 seconds (JVM running for 4.472)
+2018-08-10 16:51:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9028 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 16:51:03 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 16:51:03 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 16:51:05 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.434 seconds (JVM running for 46.731)
+2018-08-10 16:51:35 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7444 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 16:51:35 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 16:51:35 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 16:51:38 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 3.942 seconds (JVM running for 4.516)
+2018-08-10 16:52:16 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 7444 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 16:52:16 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 16:52:16 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 16:52:17 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 1.339 seconds (JVM running for 43.356)
+2018-08-10 16:54:31 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 10428 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-10 16:54:31 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-10 16:54:31 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-10 16:54:35 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 3.928 seconds (JVM running for 4.483)

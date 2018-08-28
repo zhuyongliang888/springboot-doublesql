@@ -1,0 +1,9 @@
+2018-08-08 19:08:45 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarting][50]->Starting Application on PC140046 with PID 9336 (E:\workspace_oxygen\oracle-test-demo\target\classes started by zhuyl in E:\workspace_oxygen\oracle-test-demo)
+2018-08-08 19:08:45 [restartedMain] [DEBUG][com.hoperun.oracle.demo.Application][logStarting][53]->Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-08-08 19:08:45 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStartupProfileInfo][663]->The following profiles are active: dev
+2018-08-08 19:08:49 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 19:08:49
+2018-08-08 19:08:49 [restartedMain] [INFO][com.hoperun.oracle.demo.Application][logStarted][59]->Started Application in 4.66 seconds (JVM running for 5.273)
+2018-08-08 19:08:50 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 19:08:50
+2018-08-08 19:08:54 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime][26]->The time is now 19:08:54
+2018-08-08 19:08:55 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime1][32]->The time is now 19:08:55
+2018-08-08 19:08:56 [pool-2-thread-1] [INFO][com.hoperun.oracle.demo.component.ScheduledTasks][reportCurrentTime2][38]->The time is now 19:08:56
